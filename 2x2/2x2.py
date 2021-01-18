@@ -19,7 +19,7 @@ for i in range(2**(len(C))):
     if not (((0 in A[0]) or (0 in A[1])) or (A[0][0]==A[0][1] or A[1][0]==A[0][0] or A[1][1]==A[0][1] or A[1][0]==A[1][1])):
         print("The solution is : ")
         for x in range(2):
-            for y in range(2):
+            for y in range(2): 
                 print(A[x][y], end=" ")
             print()
         isSolve=1
