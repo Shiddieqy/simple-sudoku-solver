@@ -1,3 +1,4 @@
+#Shabri Ash Shiddieqy
 A = [[0 for i in range (2)] for j in range (2)]
 for i in range (2):
     X=input("Input row " + str(i+1) +" : ")
