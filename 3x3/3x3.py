@@ -28,7 +28,6 @@ def isDone(Arr):
                 if Arr[i][k]==Arr[i][j] or Arr[k][i]==Arr[j][i]:
                     m=1
                     return False
-                    break
     if m == 0 :
         return True
 #The main loop to solve the sudoku
